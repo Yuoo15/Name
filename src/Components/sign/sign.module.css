@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+.sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.text{
+    font-family: 'Imperial Script', cursive;
+    color:white
+}

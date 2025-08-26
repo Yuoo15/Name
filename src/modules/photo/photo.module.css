@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+.image{
+    border-radius: 20px;
+}
+
+.photo{
+    border-radius: 20px;
+    background-color: #fef7f7;
+    width: 300px;
+    height:auto;
+    box-shadow: 0 4px 8px black;
+    padding-bottom: 5px;
+}
+
+.p{
+    color: #ff69b4;
+    font-family: 'Imperial Script', cursive;
+    text-align: center;
+}

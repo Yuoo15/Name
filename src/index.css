@@ -1,0 +1,19 @@
+body{
+    background-color: #fef7f7;
+    user-select: none;
+}
+
+.fade{
+    animation-name: scroll;
+	animation-fill-mode: both;
+	animation-timeline: --name;
+	view-timeline-name:--name ;
+	animation-range: 10% 50%;
+}
+
+@keyframes scroll {
+	from{
+		translate: -25vw;
+		opacity: 0;
+	}
+}

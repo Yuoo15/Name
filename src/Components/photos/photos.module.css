@@ -1,0 +1,29 @@
+.photos{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ff69b4 transparent;
+    gap: 30px;
+    padding: 30px;
+    animation: scroll 10s ease-in-out infinite;
+    scroll-behavior: smooth;
+}
+.photos::-webkit-scrollbar {
+    height: 8px;
+}
+
+.photos::-webkit-scrollbar-thumb {
+    background-color: #ff69b4;
+    border-radius: 10px;
+}
+
+.photos::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.h1{
+    color: #ff69b4;
+    font-family: 'Imperial Script', cursive;
+    text-align: center;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-family: "Imperial Script", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: #ff69b4;
+    animation: text_h1 2s ease forwards;
+}
+
+@keyframes text_h1 {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.p {
+    font-size: 1.5rem;
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:gray;
+    animation-name: text_p;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+.arrow_down{
+    width: 30px;
+    height: 30px;
+    border-left: 5px solid gray;
+    border-bottom: 5px solid gray;
+    transform: rotate(315deg);
+    animation: arrow_down 2s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-iteration-count: 10;
+}
+
+@keyframes arrow_down {
+    0% {
+        transform: translateY(-20px) rotate(315deg);
+    }
+    50% {
+        transform: translateY(0) rotate(315deg);
+        opacity: 1;
+    }
+
+    100%{
+        transform: translateY(0) rotate(315deg);
+        opacity: 0;
+    }
+}
+
+@keyframes text_p {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
