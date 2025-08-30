@@ -4,7 +4,7 @@ export default()=>{
     return(
         <>
         <div className={styles.sign}>
-            <p className={styles.text}>С любовью, Рамазан</p>
+            <p className={styles.text}>С любовью, Имя</p>
         </div>
         </>
     )

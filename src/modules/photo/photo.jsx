@@ -4,7 +4,7 @@ export default(props)=>{
     return(
         <>
         <div className={styles.photo}>
-            <img className={styles.image} src={props.image} alt={props.text} width={300} height={300} />
+            <img className={styles.image} src={props.image} alt={props.image} width={300} height={300} />
             <p className={styles.p}>{props.text}</p>
         </div>
         </>
