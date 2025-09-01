@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import styles from "./photos.module.css";
-import image_1 from '../../assets/mincraft_home.jpg';
+import image_1 from '../../assets/image_1.png';
 import image_2 from '../../assets/mincraft_new_year.jpg';
 import image_3 from '../../assets/new_year.jpg';
 import image_4 from '../../assets/park_pogran.jpg';
@@ -8,10 +8,10 @@ import Photo from "../../modules/photo/photo";
 
 export default () => {
     const moments = [
-        { image: image_1, text: "Помнишь наш домик?" },
-        { image: image_2, text: "Помнишь наш первый домик?" },
-        { image: image_3, text: "Помнишь как мы встречали Новый Год?" },
-        { image: image_4, text: "Помнишь как мы с тобой гуляли в парке?" }
+        { alt: "Фото 1", image: image_1, text: "Описание 1" },
+        { alt: "Фото 2", image: image_1, text: "Описание 2" },
+        { alt: "Фото 3", image: image_1, text: "Описание 3" },
+        { alt: "Фото 4", image: image_1, text: "Описание 4" }
     ];
 
     const photosRef = useRef(null);
@@ -53,7 +53,7 @@ export default () => {
 
     return (
         <>
-            <h1 className={styles.h1}>Подборка "Помнеш"</h1>
+            <h1 className={styles.h1}>Подборка "Имя подборки"</h1>
             <div
                 className={styles.photos}
                 ref={photosRef}

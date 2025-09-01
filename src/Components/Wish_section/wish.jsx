@@ -7,7 +7,7 @@ export default()=>{
     return(
         <>
         <div className={styles.wishContainer}>
-            <h1 className={styles.h1}>Моя Яна...</h1>
+            <h1 className={styles.h1}>Моя(й) Имя...</h1>
             <p className={styles.p_h}>Нажми что бы узнать</p>
             <div onClick={()=>setVision_1((prev)=>true)} className={styles.heart}>❤️</div>
             {vision_1 && <p className={styles.p}>сегодня твой день, я хочу, чтобы он стал особенным, даже если мы не рядом...</p>}
