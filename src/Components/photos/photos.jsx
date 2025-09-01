@@ -1,9 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
 import styles from "./photos.module.css";
-import image_1 from '../../assets/image_1.png';
-import image_2 from '../../assets/mincraft_new_year.jpg';
-import image_3 from '../../assets/new_year.jpg';
-import image_4 from '../../assets/park_pogran.jpg';
 import Photo from "../../modules/photo/photo";
 
 export default () => {
@@ -16,7 +12,7 @@ export default () => {
 
     const photosRef = useRef(null);
     const intervalRef = useRef(null);
-    const [direction, setDirection] = useState(1); // 1 - вправо, -1 - влево
+    const [direction, setDirection] = useState(1);
 
     useEffect(() => {
         startAutoScroll();
@@ -28,7 +24,6 @@ export default () => {
         intervalRef.current = setInterval(() => {
             if (photosRef.current) {
                 photosRef.current.scrollLeft += direction;
-                // Если дошли до конца, меняем направление на влево
                 if (
                     direction === 1 &&
                     photosRef.current.scrollLeft + photosRef.current.offsetWidth >=
@@ -36,7 +31,6 @@ export default () => {
                 ) {
                     setDirection(-1);
                 }
-                // Если дошли до начала, меняем направление на вправо
                 if (
                     direction === -1 &&
                     photosRef.current.scrollLeft <= 0
@@ -44,7 +38,7 @@ export default () => {
                     setDirection(1);
                 }
             }
-        }, 10); // скорость скролла
+        }, 10);
     };
 
     const stopAutoScroll = () => {
