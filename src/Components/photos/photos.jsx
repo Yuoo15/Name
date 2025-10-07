@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import styles from "./photos.module.css";
+import image_1 from "../../assets/image_1.png";
 import Photo from "../../modules/photo/photo";
 
 export default () => {
