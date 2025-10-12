@@ -1,12 +1,10 @@
-# React + Vite
+# 🎉 Шаблон для дня рождения
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Данный шаблон представляет собой **одностраничный сайт**, на котором размещены **тёплые и искренние поздравления** для вашего партнёра.
 
-Currently, two official plugins are available:
+💌 Здесь вы можете выразить свои чувства красиво и оригинально — добавить фотографии, романтические фразы, воспоминания или даже совместное видео.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎁 Такой сайт станет **особенным подарком**, который не просто порадует в день рождения, а останется **навсегда в памяти** как знак любви, внимания и искренних эмоций.
 
-## Expanding the ESLint configuration
+✨ *Покажите, как много для вас значит этот человек — в цифровом формате, но с живыми чувствами.*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
